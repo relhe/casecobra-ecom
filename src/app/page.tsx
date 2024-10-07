@@ -43,10 +43,63 @@ export default function Home() {
               <div className="flex -space-x-4">
                 <Image
                   className="inline-block round-full ring-2 ring-slate-100"
-                  src="/users/user6.jpg"
-                  alt={"user"}
+                  src="/users/user1.jpeg"
+                  alt={"user image"}
                   width={40}
                   height={40}
+                  style={{
+                    objectFit: "cover",
+                  }}
+                />
+                <Image
+                  className="inline-block round-full ring-2 ring-slate-100"
+                  src="/users/user2.webp"
+                  alt={"user image"}
+                  width={40}
+                  height={40}
+                  style={{
+                    objectFit: "cover",
+                  }}
+                />
+                <Image
+                  className="inline-block round-full ring-2 ring-slate-100"
+                  src="/users/user3.jpg"
+                  alt={"user image"}
+                  width={40}
+                  height={40}
+                  style={{
+                    objectFit: "cover",
+                  }}
+                />
+                <Image
+                  className="inline-block round-full ring-2 ring-slate-100"
+                  src="/users/user4.jpg"
+                  alt={"user image"}
+                  width={40}
+                  height={40}
+                  style={{
+                    objectFit: "cover",
+                  }}
+                />
+                <Image
+                  className="inline-block round-full ring-2 ring-slate-100"
+                  src="/users/user5.avif"
+                  alt={"user image"}
+                  width={40}
+                  height={40}
+                  style={{
+                    objectFit: "cover",
+                  }}
+                />
+                <Image
+                  className="inline-block round-full ring-2 ring-slate-100"
+                  src="/users/user6.jpg"
+                  alt={"user image"}
+                  width={40}
+                  height={40}
+                  style={{
+                    objectFit: "cover",
+                  }}
                 />
               </div>
             </div>
