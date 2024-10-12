@@ -32,7 +32,8 @@ export default function Home() {
                                     one-of-one
                                 </span>{' '}
                                 phone case. CaseCobra allows you to protect your
-                                memories, not just your phone case.
+                                memories, not just your phone case. New way of
+                                supporting your favorite memories.
                             </p>
 
                             <ul className="mt-8 space-y-2 text-left font-medium flex flex-col items-center sm:items-start">
