@@ -2,9 +2,11 @@ import Link from 'next/link';
 import MaxWidthWrapper from './MaxWidthWrapper';
 import { buttonVariants } from './ui/button';
 import { ArrowRight } from 'lucide-react';
+import { getKindeServerSession } from '@kinde-oss/kinde-auth-nextjs/server';
 
-const Navbar = () => {
-    const user = undefined;
+const Navbar = async () => {
+    const { getUser } = getKindeServerSession();
+    const user = await getUser(); // Replace with actual logic to get user information
     const isAdmin = false; // Replace with actual logic to check if user is admin
     return (
         <nav className="sticky z-[100] h-14 insert-x-0 top-0 w-full border-b border-gray-200 bg-white/75 backdrop-blur-lg translate-all">
