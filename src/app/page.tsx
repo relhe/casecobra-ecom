@@ -227,7 +227,7 @@ export default function Home() {
                                     looks brand new after about half a year
                                 </span>{' '}
                                 , on the case I had before, the image started
-                                fading into yellow-ish color after a couple
+                                fading into black-ish color after a couple
                                 weeks. . I dig it.
                             </div>
                             <div className="flex gap-4 mt-2">
